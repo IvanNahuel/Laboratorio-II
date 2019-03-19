@@ -1,0 +1,7 @@
+D:\VisualStudio\PrimerProyecto2\PrimerProyecto2\bin\Debug\PrimerProyecto2.exe.config
+D:\VisualStudio\PrimerProyecto2\PrimerProyecto2\bin\Debug\PrimerProyecto2.exe
+D:\VisualStudio\PrimerProyecto2\PrimerProyecto2\bin\Debug\PrimerProyecto2.pdb
+D:\VisualStudio\PrimerProyecto2\PrimerProyecto2\obj\Debug\PrimerProyecto2.csprojAssemblyReference.cache
+D:\VisualStudio\PrimerProyecto2\PrimerProyecto2\obj\Debug\PrimerProyecto2.csproj.CoreCompileInputs.cache
+D:\VisualStudio\PrimerProyecto2\PrimerProyecto2\obj\Debug\PrimerProyecto2.exe
+D:\VisualStudio\PrimerProyecto2\PrimerProyecto2\obj\Debug\PrimerProyecto2.pdb
