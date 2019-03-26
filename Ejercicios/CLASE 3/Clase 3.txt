@@ -1,0 +1,4 @@
+		objeto
+para crear un objeto se tiene que llamar a la clase, y colocamos
+la palabra new junto con el constructor de la clase
+la variable referencia por defecto viene setteado como nula
