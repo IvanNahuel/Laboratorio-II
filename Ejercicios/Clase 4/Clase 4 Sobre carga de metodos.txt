@@ -1,0 +1,41 @@
+		SOBRE CARGA DE METODOS
+		----- ----- -- -------
+
+*dos metodos con mismos nombres de metodos y distintos
+argumentos
+*si se cambia la cantidad de argumentos, y si se invierte
+la cantidad de ordenes
+*no pueden tener la misma firma,(argumentos)
+		SE USA PARA
+*si hay metodos similares que requieran parametros 
+diferentes
+
+*los metodos constructores tambien se pueden sobrecargar
+siempre y cuando la firma sea distinta
+
+
+		**ejemplo sobre carga**
+
+	public SobreCarga(){}
+	public SobreCarga(int n){}
+	public SobreCarga(int n,int x):this (n){}
+	public SobreCarga(string mensaje){}
+
+:this(n) //llamada al constructor de la clase (que coincida
+	//con el argumento) this: hace referencia a la 
+	//misma clase
+
+		SOBRE CARGA DE OPERADORES
+		----- ----- -- ----------
+[acceso] static TipoRetorno operator nombreOperador
+(tipo a[,tipo b]){
+}
+
+
+
+
+
+
+
+		
+	
