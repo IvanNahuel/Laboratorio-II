@@ -1,0 +1,21 @@
+			windows forms (Clase 5)
+			-------	-----	------
+
+crear >nuevo proyecto> aplicacion de windows form
+
+clase parcial, dividir una clase en mas de un archivo fisico.
+
+				eventos: (Rayito)
+				-------
+load: el primer evento que se dispara en el formulario
+se pueden usar todas las propiedades de ese formulario.
+*settear los objetos por defectos.
+
+
+formClosing : permite preguntar si se puede cerrar o no el formulario,
+formClosed : 
+
+				objetos:
+				--------
+
+
