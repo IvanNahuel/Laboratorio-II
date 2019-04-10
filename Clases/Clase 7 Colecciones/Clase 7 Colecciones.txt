@@ -1,0 +1,59 @@
+
+			colecciones
+			-----------
+
+*aumentar y reducir dinamicamente
+*es una clase, que debe ser declarada
+*tipada
+*ejemplo una lista
+*todos los elementos e la coleccion deben ser del mismo dato
+
+list <string> palabras;
+palabras = new List <string>();
+
+palabras.Add ("Hola"); //agrego palabras
+palabras.Add ("Hello");	//agrego palabras
+
+palabras.Remove ("Hello"); //quito palabras
+
+foreach (string palabra in palabras){
+	console.WriteLine(palabra);
+}
+
+//ejemplo palabras = new List<String>() {"Chau","hola"};
+
+------------------------------------------------------------------
+
+*Dictionary: claves de palabras.
+
+*List. lista de objetos, con indice
+
+*queue (cola): coleccion de objetos en prden primero en entrar, ultimo en salir
+
+*stack: el ultimo en entrar y primero en salir, contrario de queue
+
+*sortedList: coleccion de pares de claves, que se ordenan por claves 
+de implementacion 
+
+------------------------------------------------------------------
+			EJEMPLO QUEUE(COLA)
+Queue queue = new Queue();
+queue.Enqueue ("A");
+queue.Enqueue ("B");
+
+string s = queue.Dequeue().toString();
+
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
