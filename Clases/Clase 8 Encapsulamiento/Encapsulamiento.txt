@@ -1,0 +1,81 @@
+				ENCAPSULAMIENTO	
+				---------------------------
+*ocultar informacion/procesor/valores de quien utiliza nuestras clases exponiendo a si
+las propiedades relevantes.
+
+*tres niveles: 
+	.public: sera visto por todos.
+	.protected: solo sera visto por herencia.
+	.Private: solo seran vistos para los miembros de la misma clase.
+
+*propiedades: se usa para acceder a los atributos, para obtenerlo o modificar su valor.
+
+				propiedades
+				-----------------
+
+
+EJEMPLO:
+	private int totalGoles;
+	public int TotalGoles
+	{
+	get
+	{
+	return totalGoles;
+	}
+	set
+	{	
+	this.totalGoles = value;
+	}
+	}
+			
+				indexadores
+				-----------------
+
+*nos permite usar una clase como si fuera un array.
+  objeto[ ];
+
+class EjemploIndexdadores{
+	//declaro el array
+	private string[] palabras = new string[100];
+
+	//defino el indexador
+	public string this[int i]
+	{
+	get {return palabras[i]; }
+	set {palabras[i] = value}
+	}
+	}
+EjemploIndexadores ejemplo = new EjemploIndexadores();
+ejemplo[0] = "Hola";
+ejemplo[1] = "Chau";
+
+console.writeLine(ejemplo[0]);
+
+}
+		
+				Enumerados
+				-----------------
+*tipos de clases, un valor y bombre asociado, el valor que tiene asociado es de tipo entero.
+
+	public enum DiasDeLaSemana
+	{
+	Domingo,
+	Lunes,
+	Mates,
+	Miercoles,
+	Jueves,
+	Viernes,
+	Sabado,
+	}
+
+	DiasDeLaSemana dia = DiasDeLaSemana.Lunes;
+	
+	int i = (int)DiasDeLaSemana.Lunes;
+	
+	console.WriteLine(dia);	//mostrara "lunes"	
+	console.WriteLine(i);	//mostrara 1
+
+
+
+
+
