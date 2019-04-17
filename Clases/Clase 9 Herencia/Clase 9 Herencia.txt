@@ -1,0 +1,57 @@
+
+				Herencia
+				------------
+
+*relacion entre clases, comprante estructuras y comportamientos.
+*organiza mejor las clases de una determinada realidad.
+
+*se define una herencia como
+
+[modificadores] class NombreSubClase : NombreClaseBase { }
+
+*el operador ( : ) indica al compilador que es una subclase de la clase que procede al operador.
+
+.-los constructores no se heredan
+
+PROTECTED: 
+
+solamente los miembros hijos de la clase podran acceder a ese modificador
+*cuandp una clase derivada hereda de un miembro PROTECTED, ese miembro tambien es implicitamente 
+protegido
+
+---------------------------------------------------------------------------------
+	para llamar un constructor de la clase base
+
+[modificadores ] constructor ([args]) : base ([args]);
+
+
+	class ClaseBase
+	{
+	protected int edad;
+	public ClaseBase (int edad){
+	this.edad = edad;
+	}
+	}
+class ClaseDerivada : ClaseBase{
+	public ClaseDerivada(int edad)
+	base : ( );
+}
+
+	----------------------------------------------------------------------------------------------
+	CLASES SELLADAS
+*clases que no se pueden heredar
+"sealed"
+
+[modificadores] sealed class ClaseBase { }
+
+
+
+
+
+	
+	
+
+
+
+
+
