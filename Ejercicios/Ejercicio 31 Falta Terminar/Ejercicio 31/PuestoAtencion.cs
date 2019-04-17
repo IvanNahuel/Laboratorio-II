@@ -24,16 +24,16 @@ namespace Ejercicio_31
       {
         return numeroActual++;
       }
-      set
-      {
-        numeroActual = value;
-      }
     }
-
     public bool Atender(Cliente cli)
     {
-      System.Threading.Thread.Sleep(1000);
-      return true;
+      if (cli != null)
+      {
+        System.Threading.Thread.Sleep(1000);
+        return true;
+      }
+
+      return false;
     }
     public PuestoAtencion(Puesto puesto)
     {
@@ -44,8 +44,5 @@ namespace Ejercicio_31
     {
       PuestoAtencion.numeroActual = 0;
     }
-
-
-
   }
 }

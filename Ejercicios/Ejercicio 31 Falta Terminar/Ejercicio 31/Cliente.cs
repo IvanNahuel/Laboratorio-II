@@ -11,8 +11,6 @@ namespace Ejercicio_31
     string nombre;
     int numero;
 
-
-
     public string Nombre
     {
       get
@@ -24,6 +22,7 @@ namespace Ejercicio_31
         this.nombre = value;
       }
     }
+
     public int Numero
     {
       get
@@ -31,9 +30,27 @@ namespace Ejercicio_31
         return numero;
       }
     }
+    //constructor de CLIENTE tiene como constructor un entero llamado numero (int numero)
+    //
+    public Cliente(int numero)
+    {
+      this.numero = numero;
+    }
 
+    public Cliente(int numero, string nombre)
+    {
+      Nombre = nombre;
+      this.numero = numero;
+    }
 
+    public static bool operator ==(Cliente c1, Cliente c2)
+    {
+      return c1 == c2;
+    }
 
-
+    public static bool operator !=(Cliente c1, Cliente c2)
+    {
+      return !(c1 == c2);
+    }
   }
 }

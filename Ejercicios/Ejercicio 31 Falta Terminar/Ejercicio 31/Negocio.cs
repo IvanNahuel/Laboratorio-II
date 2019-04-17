@@ -23,6 +23,18 @@ namespace Ejercicio_31
         bool var = this + value;
       }
     }
+
+    /*Agregar la propiedad ClientesPendientes que retorne la cantidad de clientes esperando a ser
+    atendidos.*/
+
+    public int ClientesPendientes
+    {
+      get
+      {
+        return clientes.Count;
+      }
+    }
+
     private Negocio()
     {
       this.clientes = new Queue<Cliente>();
@@ -38,6 +50,7 @@ namespace Ejercicio_31
       }
       return false;
     }
+
     public static bool operator ==(Negocio n, Cliente c)
     {
       //recorrer la lista y comparar si son iguales 
@@ -50,9 +63,17 @@ namespace Ejercicio_31
       }
       return false;
     }
+
     public static bool operator !=(Negocio n, Cliente c)
     {
       return (!(n == c));
+    }
+
+    public static bool operator ~(Negocio n)
+    {
+      Cliente cliente = n.Clientes;   //al utilizar el get, estoy accediendo a la propiedad y retorna el cliente des-encolado
+      return n.caja.Atender(cliente); //le pasa el cliente des-encolado, que lo hicimos a travez del GET, retornara TRUE si se
+                                                                                                        //realiza la operacion
     }
   }
 }
