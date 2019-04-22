@@ -18,6 +18,8 @@ namespace Ejercicio_31
     static int numeroActual;
     Puesto puesto;
 
+
+        //puedo obtener el numero de atencion actual
     public int NumeroActual
     {
       get
@@ -25,14 +27,15 @@ namespace Ejercicio_31
         return numeroActual++;
       }
     }
+
+        //puedo usar el metodo atender
     public bool Atender(Cliente cli)
     {
-      if (cli != null)
+      if (cli != null )
       {
         System.Threading.Thread.Sleep(1000);
         return true;
       }
-
       return false;
     }
     public PuestoAtencion(Puesto puesto)

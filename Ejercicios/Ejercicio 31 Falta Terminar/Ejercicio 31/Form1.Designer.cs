@@ -28,126 +28,128 @@
     /// </summary>
     private void InitializeComponent()
     {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtNombreNegocio = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtNombreClienteC1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.txtNombreClienteC2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox1.SuspendLayout();
+            this.txtNumeroActual = new System.Windows.Forms.TextBox();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // groupBox2
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(289, 25);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 0;
+            this.groupBox2.Controls.Add(this.txtNumeroActual);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.txtNombreClienteC2);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.txtNombreClienteC1);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Location = new System.Drawing.Point(43, 69);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(419, 297);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Cajas";
+            // 
+            // txtNombreNegocio
+            // 
+            this.txtNombreNegocio.Location = new System.Drawing.Point(155, 34);
+            this.txtNombreNegocio.Name = "txtNombreNegocio";
+            this.txtNombreNegocio.Size = new System.Drawing.Size(226, 20);
+            this.txtNombreNegocio.TabIndex = 2;
+            this.txtNombreNegocio.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(286, 9);
+            this.label1.Location = new System.Drawing.Point(6, 78);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Caja Disponible";
+            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Caja 1";
             // 
-            // textBox1
+            // label2
             // 
-            this.textBox1.Location = new System.Drawing.Point(36, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 3;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(220, 78);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(37, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Caja 2";
+            this.label2.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // textBox2
+            // txtNombreClienteC1
             // 
-            this.textBox2.Location = new System.Drawing.Point(36, 94);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtNombreClienteC1.Location = new System.Drawing.Point(33, 123);
+            this.txtNombreClienteC1.Name = "txtNombreClienteC1";
+            this.txtNombreClienteC1.Size = new System.Drawing.Size(142, 20);
+            this.txtNombreClienteC1.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 35);
+            this.label3.Location = new System.Drawing.Point(30, 107);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Nombre";
+            this.label3.Size = new System.Drawing.Size(39, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Cliente";
+            // 
+            // txtNombreClienteC2
+            // 
+            this.txtNombreClienteC2.Location = new System.Drawing.Point(212, 123);
+            this.txtNombreClienteC2.Name = "txtNombreClienteC2";
+            this.txtNombreClienteC2.Size = new System.Drawing.Size(142, 20);
+            this.txtNombreClienteC2.TabIndex = 5;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(33, 78);
+            this.label4.Location = new System.Drawing.Point(220, 107);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 13);
+            this.label4.Size = new System.Drawing.Size(39, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Numero";
+            this.label4.Text = "Cliente";
             // 
-            // label5
+            // txtNumeroActual
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(286, 49);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Turno";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(289, 65);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 7;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Location = new System.Drawing.Point(289, 114);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 129);
-            this.groupBox1.TabIndex = 9;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Atendiendo A";
+            this.txtNumeroActual.Location = new System.Drawing.Point(364, 19);
+            this.txtNumeroActual.Name = "txtNumeroActual";
+            this.txtNumeroActual.Size = new System.Drawing.Size(49, 20);
+            this.txtNumeroActual.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.txtNombreNegocio);
+            this.Controls.Add(this.groupBox2);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
     }
 
-    #endregion
+        #endregion
 
-    private System.Windows.Forms.ComboBox comboBox1;
-    private System.Windows.Forms.Label label1;
-    private System.Windows.Forms.TextBox textBox1;
-    private System.Windows.Forms.TextBox textBox2;
-    private System.Windows.Forms.Label label3;
-    private System.Windows.Forms.Label label4;
-    private System.Windows.Forms.Label label5;
-    private System.Windows.Forms.TextBox textBox3;
-    private System.Windows.Forms.GroupBox groupBox1;
-  }
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox txtNombreClienteC2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtNombreClienteC1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtNombreNegocio;
+        private System.Windows.Forms.TextBox txtNumeroActual;
+        private System.Windows.Forms.Label label4;
+    }
 }
 

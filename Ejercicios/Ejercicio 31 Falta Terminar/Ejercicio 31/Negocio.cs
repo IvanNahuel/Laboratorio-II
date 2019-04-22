@@ -9,38 +9,34 @@ namespace Ejercicio_31
   class Negocio
   {
     PuestoAtencion caja;
-    Queue<Cliente> clientes;
-    string nombre;
+    public Queue<Cliente> clientes;
+    string nombre;      //nombre del negocio
 
     public Cliente Clientes
     {
       get
       {
-        return clientes.Dequeue();
+        return clientes.Dequeue();  
       }
       set
       {
-        bool var = this + value;
+        bool var = this + value;    
       }
     }
-
-    /*Agregar la propiedad ClientesPendientes que retorne la cantidad de clientes esperando a ser
-    atendidos.*/
-
     public int ClientesPendientes
     {
       get
       {
-        return clientes.Count;
+        return clientes.Count;      //contador de clientes que esperan ser atendidos
       }
     }
-
-    private Negocio()
+    public Negocio()
     {
       this.clientes = new Queue<Cliente>();
       this.caja = new PuestoAtencion(Puesto.caja1);
     }
 
+        //tengo que usar esta sobracarga de operador para añadir un cliente a la lista
     public static bool operator +(Negocio n, Cliente c)
     {
       if (n != c)

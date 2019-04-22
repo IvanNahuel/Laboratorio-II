@@ -7,3 +7,13 @@ C:\Users\alumno\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Term
 C:\Users\alumno\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Terminar\Ejercicio 31\obj\Debug\Ejercicio 31.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Terminar\Ejercicio 31\obj\Debug\Ejercicio 31.exe
 C:\Users\alumno\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Terminar\Ejercicio 31\obj\Debug\Ejercicio 31.pdb
+C:\Users\ivan nahuel\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Terminar\Ejercicio 31\obj\Debug\Ejercicio 31.exe
+C:\Users\ivan nahuel\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Terminar\Ejercicio 31\obj\Debug\Ejercicio 31.pdb
+C:\Users\ivan nahuel\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Terminar\Ejercicio 31\bin\Debug\Ejercicio 31.exe.config
+C:\Users\ivan nahuel\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Terminar\Ejercicio 31\bin\Debug\Ejercicio 31.exe
+C:\Users\ivan nahuel\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Terminar\Ejercicio 31\bin\Debug\Ejercicio 31.pdb
+C:\Users\ivan nahuel\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Terminar\Ejercicio 31\obj\Debug\Ejercicio 31.csprojAssemblyReference.cache
+C:\Users\ivan nahuel\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Terminar\Ejercicio 31\obj\Debug\Ejercicio_31.Form1.resources
+C:\Users\ivan nahuel\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Terminar\Ejercicio 31\obj\Debug\Ejercicio_31.Properties.Resources.resources
+C:\Users\ivan nahuel\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Terminar\Ejercicio 31\obj\Debug\Ejercicio 31.csproj.GenerateResource.cache
+C:\Users\ivan nahuel\Desktop\Laboratorio-II-master\Ejercicios\Ejercicio 31 Falta Terminar\Ejercicio 31\obj\Debug\Ejercicio 31.csproj.CoreCompileInputs.cache

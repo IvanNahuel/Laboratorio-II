@@ -6,25 +6,31 @@ using System.Windows.Forms;
 
 namespace Ejercicio_31
 {
-  static class Program
-  {
-        /// <summary>
-    /// Punto de entrada principal para la aplicación.
-    /// </summary>
-    [STAThread]
-    static void Main()
+    static class Program
     {
-      Application.EnableVisualStyles();
-      Application.SetCompatibleTextRenderingDefault(false);
-      Application.Run(new Form1());
+        /// <summary>
+        /// Punto de entrada principal para la aplicación.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
 
-      //el cliente tiene un numero y un nombre
-      //el numero indica su turno, es decir
-      //hay una cola de clientes, si los numeros y numero actual coinciden, significa que
-      //deberia atender al cliente con ese numero
-      //
+            //Cliente cliente1 = new Cliente(0, "Juan");
+            Negocio negocio = new Negocio();    //inicializamos el negocio
+                                                //ahora dentro de negocio necesitamos añadir clientes
+            Cliente clienteAux = new Cliente(1, "Juan");
+
+            bool v = negocio + clienteAux;   //quiro añadir a la cola 
+
+            Console.WriteLine(negocio.Clientes.Nombre);
 
 
+
+
+
+        }
     }
-  }
 }
