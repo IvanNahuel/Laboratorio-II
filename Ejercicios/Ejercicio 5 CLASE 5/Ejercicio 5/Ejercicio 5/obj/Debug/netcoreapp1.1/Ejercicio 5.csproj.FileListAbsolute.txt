@@ -1,0 +1,10 @@
+C:\Users\ivan nahuel\Desktop\Ejercicio 5\Ejercicio 5\Ejercicio 5\bin\Debug\netcoreapp1.1\Ejercicio 5.deps.json
+C:\Users\ivan nahuel\Desktop\Ejercicio 5\Ejercicio 5\Ejercicio 5\bin\Debug\netcoreapp1.1\Ejercicio 5.runtimeconfig.json
+C:\Users\ivan nahuel\Desktop\Ejercicio 5\Ejercicio 5\Ejercicio 5\bin\Debug\netcoreapp1.1\Ejercicio 5.runtimeconfig.dev.json
+C:\Users\ivan nahuel\Desktop\Ejercicio 5\Ejercicio 5\Ejercicio 5\bin\Debug\netcoreapp1.1\Ejercicio 5.dll
+C:\Users\ivan nahuel\Desktop\Ejercicio 5\Ejercicio 5\Ejercicio 5\bin\Debug\netcoreapp1.1\Ejercicio 5.pdb
+C:\Users\ivan nahuel\Desktop\Ejercicio 5\Ejercicio 5\Ejercicio 5\obj\Debug\netcoreapp1.1\Ejercicio 5.csprojAssemblyReference.cache
+C:\Users\ivan nahuel\Desktop\Ejercicio 5\Ejercicio 5\Ejercicio 5\obj\Debug\netcoreapp1.1\Ejercicio 5.csproj.CoreCompileInputs.cache
+C:\Users\ivan nahuel\Desktop\Ejercicio 5\Ejercicio 5\Ejercicio 5\obj\Debug\netcoreapp1.1\Ejercicio 5.AssemblyInfo.cs
+C:\Users\ivan nahuel\Desktop\Ejercicio 5\Ejercicio 5\Ejercicio 5\obj\Debug\netcoreapp1.1\Ejercicio 5.dll
+C:\Users\ivan nahuel\Desktop\Ejercicio 5\Ejercicio 5\Ejercicio 5\obj\Debug\netcoreapp1.1\Ejercicio 5.pdb
