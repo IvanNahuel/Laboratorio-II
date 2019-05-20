@@ -1,0 +1,7 @@
+			Generics
+			-----------
+
+Clases parametrizables,
+
+*sirven para parametrizar, las clases.
+*retorne, o pida un dato o un tipo de dato.
