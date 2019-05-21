@@ -1,0 +1,7 @@
+D:\VisualStudio\Cartas\Cartas\bin\Debug\Cartas.exe.config
+D:\VisualStudio\Cartas\Cartas\bin\Debug\Cartas.exe
+D:\VisualStudio\Cartas\Cartas\bin\Debug\Cartas.pdb
+D:\VisualStudio\Cartas\Cartas\obj\Debug\Cartas.csprojAssemblyReference.cache
+D:\VisualStudio\Cartas\Cartas\obj\Debug\Cartas.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Cartas\Cartas\obj\Debug\Cartas.exe
+D:\VisualStudio\Cartas\Cartas\obj\Debug\Cartas.pdb
