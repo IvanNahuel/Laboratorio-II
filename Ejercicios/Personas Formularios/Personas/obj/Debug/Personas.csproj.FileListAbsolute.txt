@@ -1,0 +1,11 @@
+D:\VisualStudio\Personas\Personas\bin\Debug\Personas.exe.config
+D:\VisualStudio\Personas\Personas\bin\Debug\Personas.exe
+D:\VisualStudio\Personas\Personas\bin\Debug\Personas.pdb
+D:\VisualStudio\Personas\Personas\obj\Debug\Personas.csprojAssemblyReference.cache
+D:\VisualStudio\Personas\Personas\obj\Debug\Personas.Form1.resources
+D:\VisualStudio\Personas\Personas\obj\Debug\Personas.formulariosPersona.resources
+D:\VisualStudio\Personas\Personas\obj\Debug\Personas.Properties.Resources.resources
+D:\VisualStudio\Personas\Personas\obj\Debug\Personas.csproj.GenerateResource.cache
+D:\VisualStudio\Personas\Personas\obj\Debug\Personas.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Personas\Personas\obj\Debug\Personas.exe
+D:\VisualStudio\Personas\Personas\obj\Debug\Personas.pdb
