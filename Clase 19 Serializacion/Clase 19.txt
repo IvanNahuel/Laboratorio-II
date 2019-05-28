@@ -1,0 +1,36 @@
+				Serializacion
+				-----------------
+
+*convertir un objeto en texto, JSON
+*propositos
+	.Guardarlo en un archivo
+	.base da datos
+	.otros procesos
+
+/formato de serializacion
+	*Binarios y XML
+	*XML: 
+	
+	<XML>
+		<persona>
+	<nombre>          </nombre>
+		</persona>
+	</XML>
+	
+XML: solo guarda atributos publicos. (Perdida de informacion, ya que no guarda los atributos privador)
+
+----------------------------------------------------------------------------------------------------------------------
+
+*IMPORTANTE: la clase debera tener un constructor por defecto (SIN PARAMETROS) para poder
+serializarlo.
+
+*-xmlTextWriter: nos permite escribir objetos xml
+
+
+
+
+
+
+
+
+
