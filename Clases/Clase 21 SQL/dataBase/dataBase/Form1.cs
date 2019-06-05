@@ -30,22 +30,70 @@ namespace dataBase
       //inicia la conexcion 
       SqlConnection cn = new SqlConnection(Properties.Settings.Default.BDSQL);
       //prepara el comando a ejecutar en la base de datos
-      SqlCommand cm = new SqlCommand("Select id, nombre from provincias", cn);
+      SqlCommand cm = new SqlCommand("Select id, nombre from provincia", cn);
+
+      SqlCommand cm3 = new SqlCommand("insert into provincia (nombre)values('Santiago Del Estero')", cn);
+
+      //
+      //cm3.ExecuteNonQuery() para insert o update ( para modificar la base de datos)
 
       cn.Open();
 
       SqlDataReader dr = cm.ExecuteReader();
-      
+
       while (dr.Read())     //mientras mi data reader pueda leer
       {
         //dr["nombre"].ToString();  //nos devolvera el nombre
         //nos llena la lista con lo que haya en la base de datos
         provincias.Add(new Provincia((int)(decimal)dr["id"], dr["nombre"].ToString()));
       }
-      cn.Close();
 
       this.cmbPcia.DataSource = provincias;
 
+      cn.Close();
+
+    }
+
+    public string ChangedStateInComboBoxLocalidades()
+    {
+      return this.cmbPcia.Text;
+    }
+
+    private void cmbLocalidad_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+    }
+
+    private void cmbLocalidad_Click(object sender, EventArgs e)
+    {
+      int idAux = new int();
+      //le pasamos un elemento de la lista y me tiene que retornar si id de la base de datos
+      foreach (Provincia prov in provincias)
+      {
+        if (ChangedStateInComboBoxLocalidades() == prov.Nombre)
+        {
+          idAux = prov.Id;
+        }
+      }
+      //-------------------------------------------------------------------------------------------
+      
+      SqlConnection sqlcn2 = new SqlConnection(Properties.Settings.Default.BDSQL);
+
+      string auxConsulta = "select id, Provincia, nombre from Localidades where Localidades.provincia = " + idAux.ToString();
+      //la consulta, nos retorna la tabla entera, en base a valga la redundancia, su comando "CONSULTA"
+      SqlCommand sqlcm2 = new SqlCommand(auxConsulta , sqlcn2);
+
+      sqlcn2.Open();
+
+      SqlDataReader dr2 = sqlcm2.ExecuteReader();
+
+      List<Localides> localidesAux = new List<Localides>();
+
+      while (dr2.Read())
+      {
+        localidesAux.Add(new Localides((int)(decimal)dr2["id"], (int)(decimal)dr2["provincia"], dr2["nombre"].ToString()));
+      }
+      this.cmbLocalidad.DataSource = localidesAux;
     }
   }
 }
